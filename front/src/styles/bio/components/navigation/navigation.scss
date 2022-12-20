@@ -1,0 +1,130 @@
+.navigation-container {
+    width: 48%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    @media screen and (max-width: 992px) {
+        width: 49%;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        margin-bottom: 5%;
+        height: 130px;
+        padding-bottom: 1.7%;
+    }
+}
+
+.first-link-container {
+    border-radius: 65px;
+    border: 1px transparent solid;
+    background-color: #ececec;
+    height: 130px;
+    width: 137px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 45px;
+    bottom: 580px;
+
+    .first-link {
+        color: black;
+        text-decoration: none;
+        padding-bottom: 2.5%;
+        font-weight: 500;
+        font-size: 17.3px;
+
+    }
+
+    @media screen and (max-width: 992px) {
+        left: 37px;
+        bottom: 660px;
+    }
+
+    @media screen and (max-width: 768px) {
+        height: 92px;
+        width: 100px;
+        margin-right: 3%;
+        left: 0px;
+        bottom: 0px;
+    }
+
+}
+
+.second-link-container {
+
+    border-radius: 65px;
+    border: 1px transparent solid;
+    background-color: #ececec;
+    height: 130px;
+    width: 137px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 553px;
+    left: 160px;
+
+    .second-link {
+        color: black;
+        text-decoration: none;
+        padding-bottom: 2.5%;
+        font-weight: 500;
+        font-size: 17.3px;
+    }
+
+    @media screen and (max-width: 992px) {
+        left: 102px;
+        bottom: 633px;
+    }
+
+    @media screen and (max-width: 768px) {
+        height: 92px;
+        width: 100px;
+        margin-right: 3%;
+        left: 0px;
+        bottom: 0px;
+    }
+
+}
+
+
+.about-me-container {
+
+    border-radius: 65px;
+    border: 1px transparent solid;
+    background-color: #ececec;
+    height: 130px;
+    width: 137px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 190px;
+    right: 182px;
+
+    .about-me {
+
+        padding-bottom: 2.5%;
+        font-weight: 500;
+        font-size: 17.3px;
+        cursor: pointer;
+    }
+
+    @media screen and (max-width: 992px) {
+        bottom: 393px;
+    }
+
+    @media screen and (max-width: 768px) {
+        height: 91px;
+        width: 100px;
+        left: 0px;
+        bottom: 0px;
+    }
+
+}

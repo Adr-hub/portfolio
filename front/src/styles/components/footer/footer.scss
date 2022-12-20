@@ -1,0 +1,119 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 8%;
+
+    @media screen and (max-width: 992px) {
+        width: 100%;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p {
+        width: 40%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        padding-bottom: 0.45%;
+
+        @media screen and (max-width: 992px) {
+            padding-bottom: 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            width: 92%;
+            font-size: 16.3px;
+            margin: 0;
+        }
+    }
+
+    .external-links {
+        width: 30%;
+        height: 49px;
+        display: flex;
+        align-items: center;
+
+        .first-external-link {
+            margin-right: 4.3%;
+            width: 16%;
+            text-align: center;
+            padding: 2%;
+            background-color: #ececec;
+            position: relative;
+            bottom: 1px;
+            left: 135px;
+
+            @media screen and (max-width: 992px) {
+                width: 19.5%;
+                padding: 2.9%;
+                left: 70px;
+            }
+
+            @media screen and (max-width: 768px) {
+                padding: 0;
+                padding-top: 7px;
+                margin-top: 1.4px;
+                padding-bottom: 34px;
+                width: 39%;
+                height: 31px;
+                left: 0px;
+            }
+
+            i {
+                transform: scale(2.4);
+                color: #184d80;
+
+                @media screen and (max-width: 768px) {
+                    transform: scale(2);
+                }
+            }
+        }
+
+        .second-external-link {
+            width: 16%;
+            background-color: #ececec;
+            padding: 2%;
+            text-align: center;
+            position: relative;
+            bottom: 1px;
+            left: 156px;
+
+            @media screen and (max-width: 992px) {
+                width: 19.5%;
+                padding: 2.9%;
+                left: 76px;
+            }
+
+            @media screen and (max-width: 768px) {
+                padding: 0;
+                padding-top: 7px;
+                margin-top: 1.4px;
+                padding-bottom: 34px;
+                width: 39%;
+                height: 31px;
+                left: 0px;
+            }
+
+            i {
+                transform: scale(2.4);
+                color: rgb(61, 60, 60);
+
+                @media screen and (max-width: 768px) {
+                    transform: scale(2);
+                }
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            align-items: flex-start;
+            justify-content: space-around;
+            margin-top: 5.3%;
+        }
+
+    }
+}

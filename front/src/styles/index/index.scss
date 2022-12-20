@@ -1,0 +1,37 @@
+* {
+    font-family: 'Hahmlet', serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #184d80;
+    height: auto;
+    width: 100%;
+    min-width: 300px;
+    margin: 0;
+
+    @media screen and (max-width: 992px) and (orientation: portrait) {
+        height: auto;
+    }
+
+    @media screen and (max-width: 992px) {
+        height: auto;
+    }
+
+    @media screen and (max-width: 768px) {
+        height: auto;
+    }
+}
+
+#root {
+    width: auto;
+    height: auto;
+
+    @media screen and (max-width: 992px) {
+        height: auto;
+    }
+
+    @media screen and (max-width: 768px) {
+        height: auto;
+    }
+}
