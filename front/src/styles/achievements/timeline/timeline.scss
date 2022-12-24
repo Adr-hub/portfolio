@@ -1,0 +1,213 @@
+.diagonals {
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
+.first-section {
+    border-right: 1px black solid;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 24%;
+
+
+    img {
+        visibility: hidden;
+        width: 26%;
+        height: 227px;
+        object-fit: fill;
+        overflow: hidden;
+        color: #940000;
+
+        @media screen and (max-width: 992px) {
+            width: 24%;
+        }
+    }
+
+
+    &:hover {
+        img {
+            visibility: visible;
+        }
+
+    }
+
+    @media screen and (max-width: 992px) {
+        justify-content: flex-start;
+        width: 34%;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px black solid;
+    }
+}
+
+.third-section-link {
+    border-right: 1px black solid;
+    color: black;
+    text-decoration: none;
+    width: 20%;
+
+    @media screen and (max-width: 992px) {
+        justify-content: flex-start;
+        width: 23%;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px black solid;
+        height: 220px;
+    }
+}
+
+.fourth-section-link {
+    border-right: 1px black solid;
+    color: black;
+    text-decoration: none;
+    width: 20%;
+
+    @media screen and (max-width: 992px) {
+        justify-content: flex-start;
+        width: 23%;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px black solid;
+        height: 220px;
+    }
+}
+
+.fifth-section {
+    border-right: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    width: 6%;
+
+
+    img {
+        width: 100%;
+        height: 227px;
+        object-fit: fill;
+        overflow: hidden;
+    }
+
+    @media screen and (max-width: 992px) {
+        width: 7.5%;
+    }
+}
+
+.sixth-section-link {
+    color: black;
+    text-decoration: none;
+    width: 31%;
+
+    @media screen and (max-width: 992px) {
+        width: 45%;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px black solid;
+        height: 220px;
+    }
+}
+
+.year {
+    font-weight: 600;
+    font-size: 18.5px;
+
+    @media screen and (max-width: 992px) {
+        font-size: 16.5px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 19px;
+    }
+
+}
+
+.youth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    height: 180px;
+
+    div {
+        position: relative;
+        top: 52px;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 992px) {
+        width: 67%;
+
+        div {
+            height: 28.3px;
+            width: 90%;
+        }
+
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+
+        div {
+            width: 76%;
+        }
+
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    padding-bottom: 12px;
+}
+
+.description {
+    border: 1.5px black solid;
+    text-align: center;
+    font-weight: 600;
+    width: 75%;
+
+
+    @media screen and (max-width: 992px) {
+        font-size: 16.5px;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 19px;
+    }
+}
+
+.degree {
+    border: 1.5px black solid;
+    width: auto;
+    text-align: center;
+    font-weight: 550;
+
+    @media screen and (max-width: 992px) {
+        font-size: 16.5px;
+    }
+
+
+    @media screen and (max-width: 768px) {
+        font-size: 18px;
+        margin-bottom: 2%;
+    }
+
+
+}

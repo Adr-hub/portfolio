@@ -4,11 +4,16 @@ import './styles/index/index.scss';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Bio from './pages/bio/layout/layout';
+import Achievements from './pages/achievements/layout/layout';
 
 const frontRoutes = createBrowserRouter([
   {
     path: '/fr/portfolio',
     element: <Bio />
+  },
+  {
+    path: '/fr/parcours',
+    element: <Achievements />
   }
 ]);
 

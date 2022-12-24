@@ -24,8 +24,15 @@ body {
 }
 
 #root {
-    width: auto;
+    width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media screen and (max-width: 992px) and (orientation: portrait) {
+        height: auto;
+    }
 
     @media screen and (max-width: 992px) {
         height: auto;

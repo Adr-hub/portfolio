@@ -1,0 +1,85 @@
+.degrees {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .degree-year-container {
+        background-color: #ececec;
+        height: 80px;
+        width: 20%;
+        font-size: 21px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (max-width:768px) {
+            width: 50%;
+        }
+    }
+
+    .icons {
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 2%;
+        height: 90px;
+
+        i {
+            width: 24.5px;
+            height: 23px;
+            padding-top: 5px;
+            transform: scale(2.2);
+            background-color: #ececec;
+        }
+
+        @media screen and (max-width:768px) {
+            width: 50%;
+        }
+    }
+
+    p {
+        background-color: #ececec;
+        width: auto;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+.first-icon {
+    i {
+        padding-left: 3px;
+    }
+}
+
+.second-icon {
+    i {
+        padding-left: 4.4px;
+    }
+}
+
+.third-icon {
+    i {
+        padding-left: 3.35px;
+    }
+}
+
+.fourth-icon {
+    i {
+        padding-left: 4.4px;
+    }
+}
+
+.fifth-icon {
+    i {
+        padding-left: 2.3px;
+    }
+}
+
+.sixth-icon {
+    i {
+        padding-left: 2.9px;
+    }
+}

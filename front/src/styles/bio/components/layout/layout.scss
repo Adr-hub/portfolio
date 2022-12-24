@@ -1,3 +1,22 @@
+.bio-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+
+    @media screen and (max-width: 992px) and (orientation: portrait) {
+        height: 100vh;
+    }
+
+    @media screen and (max-width: 992px) and (orientation: landscape) {
+        height: auto;
+    }
+
+    @media screen and (max-width: 768px) {
+        height: auto;
+    }
+}
+
 .bio-container {
     display: flex;
 

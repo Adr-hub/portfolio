@@ -38,7 +38,6 @@ p {
     text-align: center;
 
     @media screen and (max-width:768px) {
-        width: 100%;
         font-size: 17px;
     }
 }
@@ -49,10 +48,11 @@ p {
     justify-content: flex-end;
 
     @media screen and (max-width:992px) {
-        width: 100%;
+        width: 78%;
     }
 
     @media screen and (max-width:768px) {
         justify-content: center;
+        width: 100%;
     }
 }
