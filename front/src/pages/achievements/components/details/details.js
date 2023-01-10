@@ -3,7 +3,7 @@ const Details = () => {
     return <>
         <section className='degrees'><div className='degree-year-container'><span>2011-2014</span></div>
             <div className='icons'><div className='first-icon'><i className="fas fa-video"></i></div><div className='second-icon'><i className="fas fa-university"></i></div></div>
-            <p>Université Paul-Valéry Montpellier 3<br /><br />Licence Arts, Lettres, Langues, mention Arts du spectacle</p>
+            <p className="details-paragraph">Université Paul-Valéry Montpellier 3<br /><br />Licence Arts, Lettres, Langues, mention Arts du spectacle</p>
         </section>
 
         {/* <section className='degrees'><div className='degree-year-container'><span>2014-2016</span></div>

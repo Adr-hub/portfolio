@@ -5,25 +5,36 @@
     margin-bottom: 2%;
     width: 100%;
 
-    button {
+    .homepage-button {
+        border-color: #ececec;
         background-color: #ececec;
-        width: 14.3%;
+        width: 17%;
+        font-size: 14.5px;
         cursor: pointer;
         text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-right: 2%;
     }
 
     i {
-        margin-right: 9.2%;
         transform: scale(1.6);
     }
 
-    button+button {
-        width: 14.3%;
+    .projects-button {
+        border-color: #ececec;
+        background-color: #ececec;
+        width: 17%;
+        font-size: 14.5px;
         text-align: center;
         margin-right: 2.5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-left: 2%;
 
         i {
-            margin-left: 9.2%;
             transform: scale(1.6);
         }
     }
@@ -33,42 +44,33 @@
         margin-top: 4.5%;
         margin-bottom: 2.5%;
 
-        button {
+        .homepage-button {
             width: 21.3%;
             margin-left: 2.5%;
         }
 
-        button+button {
+        .projects-button {
             width: 21.3%;
-            margin-left: 0;
         }
     }
 
     @media screen and (max-width: 768px) {
         margin-top: 2%;
-        width: 90%;
-        margin-left: 5%;
+        width: 95%;
+        margin-left: 2.5%;
         justify-content: center;
 
-        button {
-            width: 47%;
-            text-align: left;
-
-            i {
-                margin-right: 10.2%;
-            }
-        }
-
-        button+button {
-            width: 47%;
+        .homepage-button {
+            width: 100%;
             text-align: right;
-
-            i {
-                margin-left: 10.2%;
-            }
+            padding-right: 1.2%;
         }
 
-
+        .projects-button {
+            width: 100%;
+            text-align: left;
+            padding-left: 0.8%;
+        }
     }
 }
 
@@ -101,7 +103,7 @@ h1 {
     }
 }
 
-p {
+.achievements-header-paragraph {
     font-weight: 550;
     font-size: 20px;
     margin-bottom: 1.1%;
@@ -112,12 +114,21 @@ p {
     text-align: center;
 
     @media screen and (max-width:992px) {
-        width: 58%;
+        width: 100%;
+        text-align: right;
+        padding-right: 2.9%;
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+
     }
 
     @media screen and (max-width:768px) {
         width: 100%;
-        font-size: 17px;
+        font-size: 17.8px;
+        margin-bottom: 1.70%;
+        padding-right: 0;
+        text-align: center;
     }
 }
 
@@ -126,8 +137,14 @@ p {
     display: flex;
     justify-content: flex-end;
 
+    @media screen and (max-width:992px) {
+        width: 44%;
+        background-color: #ececec;
+    }
+
     @media screen and (max-width:768px) {
         width: 100%;
         justify-content: center;
+        background-color: transparent;
     }
 }

@@ -28,7 +28,7 @@
         height: 90px;
 
         i {
-            width: 24.5px;
+            width: 25.5px;
             height: 23px;
             padding-top: 5px;
             transform: scale(2.2);
@@ -40,46 +40,60 @@
         }
     }
 
-    p {
+    .details-paragraph {
         background-color: #ececec;
         width: auto;
         padding-left: 2%;
         padding-right: 2%;
+        text-align: center;
+        font-weight: 500;
+        font-size: 17.8px;
+
+
+        @media screen and (max-width:768px) {
+            width: 89.5%;
+            padding: 0;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+
+        margin-top: 12.3%;
     }
 }
 
 .first-icon {
     i {
-        padding-left: 3px;
+        text-align: center;
     }
 }
 
 .second-icon {
     i {
-        padding-left: 4.4px;
+        text-align: center;
     }
 }
 
 .third-icon {
     i {
-        padding-left: 3.35px;
+        text-align: center;
     }
 }
 
 .fourth-icon {
     i {
-        padding-left: 4.4px;
+        text-align: center;
     }
 }
 
 .fifth-icon {
     i {
-        padding-left: 2.3px;
+        text-align: center;
     }
 }
 
 .sixth-icon {
     i {
-        padding-left: 2.9px;
+        text-align: center;
     }
 }

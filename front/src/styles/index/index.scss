@@ -12,19 +12,23 @@ body {
 
     @media screen and (max-width: 992px) and (orientation: portrait) {
         height: auto;
+        border-bottom: 8px #184d80 solid;
     }
 
     @media screen and (max-width: 992px) {
         height: auto;
+        border-bottom: 8px #184d80 solid;
     }
 
     @media screen and (max-width: 768px) {
         height: auto;
+        border-bottom: 8px #184d80 solid;
     }
 }
 
 #root {
     width: 100%;
+    margin: 0;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -32,13 +36,16 @@ body {
 
     @media screen and (max-width: 992px) and (orientation: portrait) {
         height: auto;
+        border-bottom: 8px #184d80 solid;
     }
 
     @media screen and (max-width: 992px) {
         height: auto;
+        border-bottom: 8px #184d80 solid;
     }
 
     @media screen and (max-width: 768px) {
         height: auto;
+        border-bottom: 8px #184d80 solid;
     }
 }

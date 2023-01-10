@@ -27,7 +27,7 @@ h1 {
     }
 }
 
-p {
+.bio-header-paragraph {
     font-weight: 550;
     font-size: 20px;
     margin-bottom: 1.1%;
@@ -37,8 +37,21 @@ p {
     background-color: #ececec;
     text-align: center;
 
+    @media screen and (max-width:992px) {
+        width: 100%;
+        margin-top: 0;
+        text-align: right;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 2.9%;
+    }
+
     @media screen and (max-width:768px) {
-        font-size: 17px;
+        width: 100%;
+        font-size: 17.8px;
+        text-align: center;
+        padding-right: 0;
+        margin-bottom: 2.3%;
     }
 }
 
@@ -48,10 +61,12 @@ p {
     justify-content: flex-end;
 
     @media screen and (max-width:992px) {
-        width: 78%;
+        width: 44%;
+        background-color: #ececec;
     }
 
     @media screen and (max-width:768px) {
+        background-color: transparent;
         justify-content: center;
         width: 100%;
     }
